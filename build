@@ -1,0 +1,9 @@
+#!/bin/bash
+
+if [  -z "$1" ]; then
+    echo "please inform a password"
+    echo "  usage: ./run <P4ssw0rd>"
+    exit 1
+fi
+
+docker build . --build-arg VNCPASS=$1 --tag desk-inabox

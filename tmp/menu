@@ -1,0 +1,9 @@
+[begin] (fluxbox)
+        [exec] (firefox) {firefox-esr}
+        [exec] (chromium) {chromium --no-sandbox}
+        [exec] (filemanager) {pcmanfm}
+        [exec] (terminal) {xterm -bg black -fg white /bin/bash}
+        [exec] (editor) {leafpad}
+        [exec] (xfe) {xfe}
+[include] (/etc/X11/fluxbox/fluxbox-menu)
+[end]

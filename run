@@ -1,0 +1,6 @@
+#!/bin/bash
+
+export NOME="desk-inabox:latest"
+
+docker run -p 5900:5900 --device /dev/snd --shm-size=256m -it $NOME 
+
