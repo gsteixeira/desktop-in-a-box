@@ -4,6 +4,10 @@ Run a X environment system inside a docker container.
 
 This allows you to run desktop applications inside a container, connecting through VNC.
 
+How it works?
+
+First we run a XFrameBuffer. Then we start the Fluxbox window manager. So we initialize a VNC server, and now you can connect to it.
+
 How to use it:
 
 - clone the repository
